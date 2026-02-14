@@ -1,3 +1,8 @@
+Here is your **GitHub-optimized `README.md`** for the project
+(with badges, shields, clean structure, and professional formatting).
+
+You can directly paste this into `README.md`.
+
 ````markdown
 # 🚀 LiveSphere_React
 
