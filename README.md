@@ -1,4 +1,4 @@
-# 🚀 LiveSphere React
+# 🌐 LiveSphere React
 
 > A practical React project built for MERN Stack mastery.
 
@@ -98,6 +98,7 @@ npm run dev
 
 MIT License
 
+---
 
 ## 👤 Author
 
