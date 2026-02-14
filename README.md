@@ -6,7 +6,11 @@
 
 ## 📌 About
 
-LiveSphere React is a hands-on frontend project focused on mastering core React concepts through real implementation.
+LiveSphere React is a hands-on frontend project built to master core React concepts through real implementation.  
+This project focuses on understanding JSX, Props, State management, Hooks, Conditional Rendering, and the Virtual DOM by building practical UI components like a responsive Navbar and Login Modal.
+
+It is designed as a foundational step toward full MERN Stack development, emphasizing clean architecture, reusable components, and production-ready coding practices.
+
 
 ---
 
@@ -49,7 +53,7 @@ Dynamic UI updates using logical conditions.
 ## 📁 Project Structure
 
 ```text
-livesphere-frontend/
+livesphere-react/
 ├── public/                # Static assets (favicons, logos)
 ├── src/
 │   ├── assets/            # Images, icons, and global fonts
@@ -93,3 +97,17 @@ npm run dev
 ## 📜 License
 
 MIT License
+
+
+## 👤 Author
+
+**Shafqat Altaf**  
+Serverless • Microservices • API Gateway Architectures  
+
+---
+
+## 📺 YouTube
+
+**CodingMavrick**  
+Build a React App 2026 | JSX, Props, State, Hooks & Virtual DOM | React From  Zero to Cloud
+https://youtu.be/i4AWnznWMow
