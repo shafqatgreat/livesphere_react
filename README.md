@@ -46,13 +46,26 @@ Dynamic UI updates using logical conditions.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-```
-src/
- ├── components/
- ├── App.jsx
- └── main.jsx
+```text
+livesphere-frontend/
+├── public/                # Static assets (favicons, logos)
+├── src/
+│   ├── assets/            # Images, icons, and global fonts
+│   ├── components/        # Reusable UI units
+│   │   ├── Navbar.jsx     # Global navigation
+│   │   ├── Login.jsx      # Login Modal & state logic
+│   │   └── Layout.jsx     # Global wrapper for page spacing
+│   ├── pages/             # Full page components (Routes)
+│   │   ├── Home.jsx       # Landing page / Hero section
+│   │   └── Dashboard.jsx  # User-specific admin area
+│   ├── App.jsx            # Main Entry Point & Routing logic
+│   ├── App.css            # Global styling and animations
+│   └── main.jsx           # React DOM rendering
+├── index.html             # Entry HTML file
+├── package.json           # Dependencies & Scripts
+└── vite.config.js         # Vite configuration
 ```
 
 ---
