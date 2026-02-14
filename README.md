@@ -74,7 +74,7 @@ livesphere-react/
 
 ---
 
-## 🚀 Installation
+## ▶️ Installation
 
 ```bash
 git clone <your-repo-link>
