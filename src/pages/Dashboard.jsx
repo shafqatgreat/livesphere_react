@@ -30,7 +30,8 @@ function Dashboard() {
   // 2. The Logic: Fetching data from our live Vercel Serverless Backend
   const fetchLiveStats = async () => {
     try {
-      const response = await fetch('${import.meta.env.VITE_API_URL}/api/stats');
+      
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/stats`);
       const data = await response.json();
       
       // Update our React state with the fresh numbers from the cloud
