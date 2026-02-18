@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom'; // 1. Import the hook
+import { AuthContext } from '../context/AuthContext'; // Import the Context
+
 
 function Login({ isOpen, onClose }) {
   // 1. Create state for inputs
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false); // 1. New Loading State
+  const { login } = useContext(AuthContext); // Pull the login function from the "Brain"
   const navigate = useNavigate();
   if (!isOpen) return null; // If not open, don't render anything
 
@@ -17,6 +20,8 @@ function Login({ isOpen, onClose }) {
     console.log("Logging in with:", { username, password });
     // This is where we will eventually call our MERN API!
     setIsLoading(false); // 3. Stop loading
+    // THIS IS THE KEY: We pass the username to our Global State
+    login({ username: username });
     onClose(); 
     navigate('/dashboard'); // 2. This changes the URL to /dashboard
     }, 5000); // 2-second delay
